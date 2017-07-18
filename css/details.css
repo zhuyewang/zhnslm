@@ -1,0 +1,131 @@
+body {background:#f9f9f9;}
+header{background:#4d8ed9;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,select{margin:0;padding:0;}
+body,button,input,select,textarea{  -webkit-text-size-adjust: 100%!important;font-weight:lighter;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+input,button,select,textarea{ outline:none;}
+textarea{resize:none;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+sup{vertical-align:text-top; vertical-align:super}sub{vertical-align:text-bottom;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+img {display: block;}
+.typePage {
+	width: 6.4rem;
+}
+.typePage>ul {
+	display: flex;
+	width: 6.4rem;
+}
+.typePage>ul li {
+	flex: 1;
+	text-align: center;
+	
+}
+.typePage>ul li>a {		
+	color: #333;
+	margin-right: 0;
+}
+.typePage>ul li.active>a {
+	border-top: 2px #00b259 solid;
+}
+.typePage>ul li.active>a:hover,
+.typePage>ul li.active>a:focus {
+	border-top: 2px #00b259 solid;
+}
+/*基本信息*/
+/*轮播图*/
+.basic {
+	width: 6.4rem;
+	height: 6rem;
+	background: greenyellow;
+}
+.basic .swiper-slide,
+.basic .swiper-slide>img {
+	width: 6.4rem;
+	height: 6rem;
+}
+.productIntroduction {
+	font-weight: bolder;
+	width: 6.4rem;
+	height: 0.7rem;
+	padding: 0 0.1rem;
+	overflow: hidden;
+	padding-top: 0.1rem;
+}
+.typePage .tab-pane>p {
+	display: flex;
+	width: 6.4rem;
+	height: 0.6rem;
+	background: #eee;
+}
+.typePage .tab-pane>p span:first-of-type {
+	display: block;
+	flex: 3;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	text-align: left;
+	padding-left: 0.1rem;
+	font-size: 0.26rem;
+	color: #398439;
+}
+.typePage .tab-pane>p span:last-of-type {
+	display: block;
+	flex: 1;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	text-align: center;
+	padding-top: 0.07rem;
+}
+.typePage .tab-pane>p span:last-of-type a {
+	display: block;
+	height: 0.46rem;
+	line-height: 0.46rem;
+	width: 1.2rem;
+	font-size: 0.26rem;
+	background: #5CB85C;
+	color: #eee;
+	border-radius: 0.05rem;
+}
+.typePage .tab-pane>dl {
+	width: 6.4rem;
+	height: 3rem;
+	background: #fff;
+}
+.typePage .tab-pane>dl dt {
+	height: 0.4rem;
+	line-height: 0.4rem;
+	padding-left: 0.1rem;
+	font-size: 0.4rem;
+	color: #C9302C;
+}
+.typePage .tab-pane>dl dt>span {
+	color: #999;
+	font-size: 0.24rem;
+	padding-left: 0.2rem;
+}
+.typePage .tab-pane>dl dd {
+	padding-left: 0.1rem;
+	padding-top: 0.2rem;
+}
+.typePage .tab-pane>dl dd>h4 {
+	font-weight: bolder;
+	font-size: 0.28rem;
+	font-family: "黑体";
+	height: 0.4rem;
+}
+.typePage .tab-pane>dl dd ul li {
+	display: inline-block;
+	width: 3rem;
+	font-size: 0.26rem;
+	color: #888;
+}
+
+.productDetail>img {
+	width: 6.4rem;
+}

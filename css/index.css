@@ -1,0 +1,467 @@
+body {background:#f9f9f9;}
+header{background:#4d8ed9;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,select{margin:0;padding:0;}
+body,button,input,select,textarea{  -webkit-text-size-adjust: 100%!important;font-weight:lighter;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+input,button,select,textarea{ outline:none;}
+textarea{resize:none;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+sup{vertical-align:text-top; vertical-align:super}sub{vertical-align:text-bottom;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+html {
+	font-size: 100px;
+}
+body {background: $cdcdcd;}
+/*头部*/
+header {
+	width: 100%;
+	height: 44px;
+	background: yellowgreen;
+	font-size: 0.24rem;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 44px;
+	color: #eee;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	display: flex;
+}
+.glyphicon {
+	flex: 1;
+	text-align: center;
+	line-height: 44px;
+	font-size: 0.3rem;
+}
+.logo {
+	flex: 4;
+	font-family: "新宋体";
+	font-weight: bold;
+	font-size: 0.3rem;
+}
+.kong {
+	flex: 1;
+}
+/*内容导航*/
+.navHome {
+	width: 6.4rem;
+	height: 3.6rem;
+	background: #fff;
+	margin-top: 0.06rem;
+}
+.navHome>ul {
+	width: 6.4rem;
+	height: 1.8rem;
+	display: flex;
+}
+.navHome>ul li {
+	flex: 1;
+	padding-top: 0.15rem;
+}
+.navHome>ul li>a {
+	display: block;
+}
+.navHome>ul li>a>dl {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.navHome>ul li>a>dl dt {
+	text-align: center;
+	background: yellowgreen;
+	color: #fff;
+	width: 1rem;
+	height: 1rem;
+	line-height: 1rem;
+	border-radius: 50%;
+	position: relative;
+	left: 50%;
+	margin-left: -0.5rem;
+}
+.navHome>ul li>a>dl dt>span {
+	font-size: 0.5rem;
+	line-height: 1rem;
+}
+.navHome>ul li>a>dl dd {
+	text-align: center;
+	position: relative;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	color: #656565;
+}
+
+/*tab切换*/
+nav {
+	width: 6.4rem;
+	background: #eee;
+}
+/*精心推荐*/
+.products {
+	width: 6.4rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	text-align: center;
+	font-size: 0.3rem;
+	color: crimson;
+	font-family: "楷体";
+	font-weight: bold;
+	border-top: 1px #dedede solid;
+	background: url(../img/tjbg.jpg) no-repeat;
+	background-size: cover;
+}
+.recommend {
+	width: 6.4rem;
+	height: 3.08rem;
+	margin: 0.2rem 0;
+	display: -webkit-flex;
+	padding: 0.12rem;
+	background: #fff;
+	border: 1px #DBD8D1 solid;
+}
+.recommend .recLeft {
+	width: 4.3rem;
+	height: 2.84rem;
+	float: left;
+}
+.recTop {
+	width: 4.3rem;
+	height: 1.3rem;
+	border-bottom: 1px #DBD8D1 solid;
+}
+.recTop>a>dl dt {
+	float: left;
+	height: 1.3rem;
+	width: 50%;
+	padding-left: 0.2rem;
+}
+.recTop>a>dl dt h2  {
+	height: 0.7rem;
+	line-height: 0.7rem;
+	color: #f74213;
+	font-size: 0.3rem;
+	font-weight: 900;
+	text-align: center;
+}
+.recTop>a>dl dt h3  {
+	height: 0.58rem;
+	color: #666;
+	font-size: 0.2rem;
+	text-align: center;
+}
+.recTop>a>dl dd {
+	width: 50%;
+	height: 1.3rem;
+	float: left;
+	padding:0 0.1rem;
+}
+.recTop>a>dl dd>img {
+	width: 1.3rem;
+	height: 1.2rem;
+}
+.recBottom {
+	height: 1.53rem;
+	width: 4.3rem;
+}
+.recBottom>a {
+	float: left;
+	width: 2.15rem;
+}
+.recBottom>a:first-of-type {
+	border-right: 1px #DBD8D1 solid;
+}
+.recBottom>a>dl {
+	width: 2.15rem;
+	height: 1.53rem;
+}
+.recBottom>a>dl dt {
+	height: 0.8rem;
+	width: 2.15rem;
+	padding-left: 0.2rem;
+}
+.recBottom>a:first-of-type>dl dt>h2 {
+	color: #e8499b;
+	text-align: left;
+	font-size: 0.3rem;
+	font-weight: 900;
+	padding-top: 0.1rem;
+}
+.recBottom>a:first-of-type>dl dt>h3 {
+	text-align: left;
+	color: #666;
+	font-size: 0.2rem;
+	padding-top: 0.1rem;
+}
+.recBottom>a:last-of-type>dl dt>h2 {
+	color: #fe8616;
+	text-align: left;
+	font-size: 0.3rem;
+	font-weight: 900;
+	padding-top: 0.1rem;
+}
+.recBottom>a:last-of-type>dl dt>h3 {
+	text-align: left;
+	color: #666;
+	font-size: 0.2rem;
+	padding-top: 0.1rem;
+}
+.recBottom>a>dl dd {
+	height: 0.73rem;
+	width: 1.4rem;
+	padding-left: 0.7rem;
+}
+.recBottom>a>dl dd>img {
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.recommend .recRight {
+	height: 2.84rem;
+	border-left: 1px #dbd8d1 solid;
+	width: 1.8rem;
+	float: right;
+}
+.recommend .recRight>a {
+	display: block;
+	height: 3.06rem;
+}
+.recommend .recRight>a>dl dt {
+	height: 1.17rem;
+	padding: 0.19rem 0 0.19rem 0.2rem;
+}
+.recommend .recRight>a>dl dt>h2 {
+	color: #53a320;
+	font-size: 0.3rem;
+	font-weight: 900;
+	padding-top: 0.1rem;
+}
+.recommend .recRight>a>dl dt>h3 {
+	color: #666;
+	font-size: 0.2rem;
+	padding-top: 0.2rem;
+}
+.recommend .recRight>a>dl dd {
+	height: 1.49rem;
+	padding: 0.19rem 0.22rem;
+}
+.recommend .recRight>a>dl dd>img {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.footTab {
+	display: flex;
+}
+
+.footTab>li {
+	flex: 1;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 44px;
+	color: #666;
+	font-family: "楷体";
+}
+.footTab>li.selected {
+	color: forestgreen;
+}
+.typePage {
+	margin-top: 44px;
+}
+/*banner*/
+.banner {
+	height: 2rem;
+	width: 6.4rem;
+}
+.swiper-container,.swiper-wrapper,.swiper-slide,.swiper-slide>img {
+	width: 6.4rem;
+	height: 2rem;
+}
+/*商品列表*/
+.item {
+	width: 6.4rem;
+}
+.item>dl {
+	height:2rem;
+	width: 6.4rem;
+	padding: 0.1rem 0;
+	border-top: 1px #ccc solid;
+	margin-bottom: 2px;
+}
+.item>dl dt {
+	float: left;
+	height: 1.8rem;
+	width: 1.9rem;
+	padding:0 0.2rem;
+}
+.item>dl dt img {
+	width: 100%;
+	height: 100%;
+}
+.item>dl dd {
+	float: left;
+	width: 4.2rem;
+	padding-right: 0.1rem;
+	height: 1.8rem;
+}
+.item>dl dd h3 {
+	width: 4.2rem;
+	height: 1.4rem;
+	font-family: "微软雅黑";
+	overflow: hidden;
+}
+.item>dl dd p {
+}
+.item>dl dd p a {
+	display: inline-block;
+	padding: 0 0.2rem;
+	color: #67B168;
+}
+/*侧边导航*/
+.asideTypepage {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	width: 6.4rem;
+	height: 100%;
+	background: rgba(0,0,0,0);
+	left: -6.4rem;
+}
+.asideItem {
+	position: absolute;
+	float: left;
+	width: 5.6rem;
+	height: 100%;
+	background: #fff;
+}
+.asideTop {
+	width: 5.6rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	padding-left: 0.2rem;
+	background:  #eefff7;
+	font-size: 0.28rem;
+	border-bottom: 1px #ddd solid;
+}
+.asideContain {
+	width: 5.6rem;
+	height: calc(100% - 0.8rem);
+}
+.asideContain>ul {
+	float: left;
+	background: #eefff7;
+	width: 1.5rem;
+	height: 100%;
+	text-align: center;
+	font-size: 0.28rem;
+}
+.asideContain>ul li {
+	height: 1rem;
+	line-height: 1rem;
+	border-bottom: 1px #ddd solid;
+}
+.asideContain>ul li a {
+	color: #333;
+	text-decoration: none;
+}
+.asideContain>ul li:hover,
+.asideContain>ul li:focus {
+	background: #fff;
+}
+.asideContain>ul li.active {
+	background: #fff;
+}
+.asideContain>ul li:last-of-type {
+	border-bottom: none;
+}
+.asideProduct {
+	height: 100%;
+	width: 100%;
+}
+.asideProduct .remen {
+	width: calc(100% - 1.5rem);
+	height: 1rem;
+	line-height: 1rem;
+	padding-left: 0.2rem;
+	font-size: 0.3rem;
+	color: #a0a0a0;
+	margin-left: 1.5rem;
+}
+.asideProduct .remenCon {
+	width: calc(100% - 1.5rem);
+	margin-left: 1.5rem;
+	height: calc(100% - 1rem);
+}
+.asideProduct .remenCon>dl {
+	margin-left: 0.11rem;
+	width: 1.2rem;
+	height: 1.3rem;
+	display: inline-block;
+	padding: 0.1rem;
+}
+.asideProduct .remenCon>dl dt a {display: inline-block;}
+.asideProduct .remenCon>dl dt a img {
+	width: 1rem;
+	height: 1rem;
+}
+.asideProduct .remenCon>dl dd {
+	text-align: center;
+	font-size: 0.12rem;
+	
+}
+/*返回主页按钮*/
+.returnHome {
+	background: rgba(0,0,0,0);
+	float: right;
+	height: 100%;
+	vertical-align: middle;
+	padding-top: 60%;
+	width: 0.7rem;
+	color: #ccc;
+	font-size: 0.35rem;
+	text-align: center;
+	opacity: 0;
+}
+/*搜索框*/
+.searchBox {
+	width: 6.4rem;
+	height: 44px;
+	background: yellowgreen;
+	position: absolute;
+	top: -44px;
+	z-index: 1001;
+}
+.searchBox>p {
+	position: relative;
+	width: 5rem;
+	height: 30px;
+	margin-left: 0.7rem;
+	margin-top: 7px;
+	padding-left: 0.5rem;
+}
+.searchBox>p>input {
+	float: left;
+	height: 30px;
+	width: 4rem;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+}
+.searchBox>p>span {
+	position: absolute;
+	top: -7px;
+	left: 4rem;
+	color: #ccc;
+	text-align: center;
+}
+.searchBox>p>i {			/*返回按钮*/
+	position: absolute;
+	top: -0.08rem;
+	left: 5.1rem;
+	color: #fff;
+}

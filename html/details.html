@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/swiper-3.4.2.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/details.css" />
+		<title>详情页</title>
+		<style type="text/css">
+			html {
+				font-size: 100px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="typePage">
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active">
+					<a href="#home" aria-controls="home" role="tab" data-toggle="tab">基本信息</a>
+				</li>
+				<li role="presentation">
+					<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">商品详情</a>
+				</li>
+				<li role="presentation">
+					<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">评价</a>
+				</li>
+			</ul>
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="home">
+					<div class="basic">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide"><img src="../img/sg.jpg"/></div>
+								<div class="swiper-slide"><img src="../img/sc.jpg"/></div>
+								<div class="swiper-slide"><img src="../img/sc02.jpg"/></div>
+								<div class="swiper-slide"><img src="../img/sc.jpg"/></div>
+								<div class="swiper-slide"><img src="../img/sg.jpg"/></div>
+								<div class="swiper-slide"><img src="../img/sc02.jpg"/></div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+					<h5 class="productIntroduction">平时多吃水果，对身体是非常有好处的。能够促进肠胃消化，而且可以使人心情愉快</h5>
+					<dl>
+						<dt>￥88.66<span>(元/kg)</span></dt>
+						<dd>
+							<h4>商家信息:</h4>
+							<ul>
+								<li>果园名：竹叶生态园</li>
+								<li>联系电话：18866666666</li>
+								<li>种植规模：1000亩</li>
+								<li>可售数量：600kg</li>
+								<li>配送方式：第三方物流</li>
+								<li>产地：上海市 闵行区</li>
+							</ul>
+						</dd>
+					</dl>					
+					<p><span>竹叶网</span><span><a href="javascript:;">观赏果园</a></span></p>
+				</div>
+				<div role="tabpanel" class="tab-pane productDetail" id="profile">					
+					<img src="../img/apple.png"/>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="messages">评价</div>
+			</div>
+		</div>
+	</body>
+	<script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/details.js" type="text/javascript" charset="utf-8"></script>
+</html>

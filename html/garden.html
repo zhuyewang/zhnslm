@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<title>竹叶网生态果园</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+		<style type="text/css">
+			html,body,div,img {
+				margin: 0;
+				padding: 0;
+			}
+			html {
+				font-size: 100px;
+			}
+			header {
+				width: 100%;
+				height: 44px;
+				background: yellowgreen;
+				font-size: 0.24rem;
+				margin: 0 auto;
+				text-align: center;
+				line-height: 44px;
+				color: #eee;
+				position: fixed;
+				top: 0;
+				z-index: 999;
+				display: flex;
+			}
+			.glyphicon {
+				flex: 1;
+				text-align: center;
+				line-height: 44px;
+				font-size: 0.3rem;
+			}
+			.toIndex {
+				flex: 1;
+				color: #eee;
+			}
+			.logo {
+				flex: 4;
+				font-family: "新宋体";
+				font-weight: bold;
+				font-size: 0.3rem;
+			}
+			.garden {
+				margin-top: 44px;
+				width: 6.4rem;
+			}
+			.garden>img {
+				width: 6.4rem;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<!--首页logo-->
+			<span class="logo">竹 叶 网 生 态 果 园</span>
+			<!--回到主页-->
+			<a class="toIndex" href="../index.html"><span id="dropDown" class="glyphicon glyphicon-home" aria-hidden="true"></span></a> 
+		</header>	
+		<div class="garden">
+			<img src="../img/garden.png"/>
+		</div>
+	</body>
+	<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+</html>

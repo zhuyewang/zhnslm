@@ -1,0 +1,48 @@
+$(function(){
+	/*侧滑菜单的动态效果*/
+	$("#goAside").click(function(){
+		$("#asideTypepage").animate({
+			left:'0rem',
+		},500,function(){
+			$("#asideTypepage").css(
+				'background','rgba(0,0,0,0.8)'
+			);
+			$("#returnHome").animate({
+				opacity:'1'
+			},500,function(){});
+		});
+		$("#asideItem").animate({
+			left:'0rem'
+		},500,function(){})
+	});
+	$("#returnHome").click(function(){
+		$("#asideItem").animate({
+			left:'-6.4rem'
+		},500,function(){
+			$("#asideTypepage").css({
+				'left':'-6.4rem',
+				'background':'rgba(0,0,0,0)'
+			});
+			$("#returnHome").css("opacity","0")
+		});
+		
+	});
+	/*下拉菜单的动态效果*/
+	$("#search").click(function(){
+		$("#searchBox").animate({
+			top:'0'
+		},500,function(){
+			$("#searchBox").css('position','fixed')
+		})
+	});
+	$("#searchBoxGo").click(function(){
+		$("#searchBox").animate({
+			top:'-44px'
+		},500,function(){})
+	})
+	/*tab切换*/
+	$('#myTabs a').click(function (e) {
+		e.preventDefault()
+		$(this).tab('show')
+	})
+})
