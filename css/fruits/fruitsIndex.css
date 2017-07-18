@@ -2,53 +2,54 @@ html {
 	font-size: 0.12rem;
 }
 header {
-	height: 0.44rem;
+	height: 44px;
 	display: flex;
-	background: #eee;
-	line-height: 0.44rem;
+	background: yellowgreen;
+	line-height: 44px;
 }
 header>div:nth-of-type(1) {
 	flex: 1;
-	font-size: 0.2rem;
+	font-size: 0.3rem;
 	text-align: center;
 }
 header>div:nth-of-type(2) {
 	flex: 8;
-	font-size: 0.2rem;
+	font-size: 0.3rem;
 	text-align: center;
+	color: #fff;
 }
 header>div:nth-of-type(3) {
 	flex: 1;
-	font-size: 0.2rem;
-	text-align: center;
+	font-size: 0.3rem;
+	text-align: left;
 	position: relative;
 }
 header>div:nth-of-type(3)>b {
 	position: absolute;
 	background: #e83a3a;
-	border-radius: 0.1rem;
+	border-radius: 0.125rem;
 	display: inline-block;
-	width: 0.2rem;
-	height: 0.2rem;
-	line-height: 0.2rem;
+	width: 0.25rem;
+	height: 0.25rem;
+	line-height: 0.25rem;
 	text-align: center;
 	right: 0.05rem;
-	top: 0.05rem;
+	top: 0.1rem;
 	color: #fff;
 	font-size: 0.12rem;
 }
 header>div:nth-of-type(4) {
 	flex: 1;
-	font-size: 0.3rem;
-	text-align: center;
+	font-size: 0.5rem;
+	text-align: left;
 	position: relative;
 }
 header>div:nth-of-type(4)>b {
 	color: #e83a3a;
 	position: absolute;
-	font-size: 0.4rem;
+	font-size: 0.8rem;
 	top: -0.1rem;
-	right: 0.15rem;
+	right: 0.1rem;
 }
 header>div:nth-of-type(4)>ul {
 	position: absolute;
@@ -57,10 +58,11 @@ header>div:nth-of-type(4)>ul {
 	background: rgba(0,0,0,0.6);
 	z-index: 10000;
 	right: 0.1rem;
-	top: 0.44rem;
+	top: 44px;
 	color: #fff;
 	padding: 0.1rem;
 	border-radius: 0.1rem;
+	font-size: 0.3rem;
 }
 header>div:nth-of-type(4)>ul li {
 	height: 0.6rem;
@@ -74,7 +76,7 @@ header>div:nth-of-type(4)>ul li:last-of-type {
 }
 .blockTriangles {
 	position: absolute;
-	bottom: -0.01rem;
+	bottom: 0rem;
 	right: 0.3rem;
 	width: 0;
     height: 0;
