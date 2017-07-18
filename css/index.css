@@ -1,19 +1,6 @@
 body {background:#f9f9f9;}
 header{background:#4d8ed9;}
 body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,select{margin:0;padding:0;}
-body,button,input,select,textarea{  -webkit-text-size-adjust: 100%!important;font-weight:lighter;}
-h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
-address,cite,dfn,em,var{font-style:normal;}
-code,kbd,pre,samp{font-family:courier new,courier,monospace;}
-input,button,select,textarea{ outline:none;}
-textarea{resize:none;}
-ul,ol{list-style:none;}
-a{text-decoration:none;}
-a:hover{text-decoration:none;}
-sup{vertical-align:text-top; vertical-align:super}sub{vertical-align:text-bottom;}
-fieldset,img{border:0;}
-button,input,select,textarea{font-size:100%;}
-table{border-collapse:collapse;border-spacing:0;}
 html {
 	font-size: 100px;
 }
@@ -279,7 +266,7 @@ nav {
 	width: 6.4rem;
 }
 .swiper-container,.swiper-wrapper,.swiper-slide,.swiper-slide>img {
-	width: 6.4rem;
+	width: 100%;
 	height: 2rem;
 }
 /*商品列表*/

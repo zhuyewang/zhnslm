@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<title>新鲜水果</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" media="screen" />
+		<link rel="stylesheet" type="text/css" href="../css/swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/fruits/fruitsIndex.css"/>
+	</head>
+	<body>
+		<!-- header begin -->
+		<header>
+			<div id="pageUp">
+				&lt;
+			</div>
+			<div>新鲜水果</div>
+			<div id="shoppingCart">
+				<i>购</i>
+				<b>6</b>
+			</div>
+			<div id="more">
+				<i>···</i>
+				<!-- 更多内容列表 -->
+				<ul id="moreList" style="display: none;">
+					<li>首页</li>
+					<li>消息</li>
+					<li>日历</li>
+					<li>搜索</li>
+					<li>分享</li>
+				</ul>
+				<!-- 弹窗的三角 -->
+				<span class="blockTriangles" style="display: none;"></span>
+				<!-- 有消息提示符 -->
+				<b>·</b>
+			</div>
+		</header>
+		<!-- header end -->
+		<!-- fruitsBanner begin -->
+		<section class="fruitsBanner">
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			    	<div class="swiper-slide"><img src="../img/sg.jpg"/></div>
+			    	<div class="swiper-slide"><img src="../img/sc.jpg"/></div>
+			    	<div class="swiper-slide"><img src="../img/sc02.jpg"/></div>
+			    </div>
+			    <div class="swiper-pagination" style="bottom: 0rem;"></div>
+			</div>
+		</section>
+		<!-- fruitsBanner end -->
+		
+		
+		
+		
+		<script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/fruits/fruits_index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var mySwiper = new Swiper('.swiper-container', {
+				autoplay: 3000,//可选选项，自动滑动
+				pagination : '.swiper-pagination',
+				//pagination : '#swiper-pagination1',
+				loop:true,
+			})			
+		</script>
+	</body>
+</html>
