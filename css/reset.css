@@ -11,11 +11,10 @@ sup{vertical-align:text-top; vertical-align:super}sub{vertical-align:text-bottom
 fieldset,img{border:0;}
 button,input,select,textarea{font-size:100%;}
 table{border-collapse:collapse;border-spacing:0;}
- html,body,h1,h2,h3,h4,h5,h6,dl,dt,dd,form,p,select,span,i,b{margin: 0;}  
+html,body,h1,h2,h3,h4,h5,h6,dl,dt,dd,form,p,select,span,i,b{margin: 0;}  
 ol,ul,th,td,textarea,option{margin: 0;padding: 0;}  
 ol,ul,li{list-style: none;}  
 a{text-decoration: none;color: #444444;}  
 a:hover {color: #922d8d;}  
-a,img,i,b {display: inline-block;font-style: normal;font-weight: normal;font-family: 'microsoft yaHei', 微软雅黑, arial;}  
-img {border: none;}  
+a,img,i,b {display: block;font-style: normal;font-weight: normal;font-family: 'microsoft yaHei', 微软雅黑, arial;}  
 h6 {font-size: 14px;color: #999;}
