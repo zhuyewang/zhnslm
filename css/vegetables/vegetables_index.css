@@ -65,14 +65,17 @@ header>div:nth-of-type(4)>ul {
 	font-size: 0.3rem;
 }
 header>div:nth-of-type(4)>ul li {
+	font-size: 0.3rem;
 	height: 0.6rem;
 	line-height: 0.6rem;
 	text-align: left;
-	padding-left: 0.6rem;
 	border-bottom: 1px rgba(255,255,255,0.2) solid;
 }
 header>div:nth-of-type(4)>ul li:last-of-type {
 	border-bottom: none;
+}
+header>div:nth-of-type(4)>ul li>span {
+	font-size: 0.3rem;
 }
 .blockTriangles {
 	position: absolute;
