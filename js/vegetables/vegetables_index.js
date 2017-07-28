@@ -85,4 +85,8 @@ window.onload = function(){
 			}
 		}
 	}
+	//返回上一页
+	$("#pageUp").click(function() {
+		window.location.href = '../../index.html';
+	});
 }
