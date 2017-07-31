@@ -39,8 +39,22 @@ header {
 	color: #333;
 	font-size: 0.3rem;
 }
+/* searchFiexd */
+
 aside {
-	height: 0.5rem;
+	height: 0.3rem;
+	padding: 0.1rem 0.3rem;
+	line-height: 0.3rem;
+}
+aside>p>span {
+	color: #f77d1e;
+	margin-right: 0.1rem;
+}
+aside>p {
+	float: left;
+	font-size: 0.12rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
 }
 nav {								/* 导航 */
 	height: 2.5rem;
@@ -76,4 +90,168 @@ nav>ul li>p:last-of-type {
 	text-align: center;
 	font-size: 0.2rem;
 	justify-content: center;
+}
+/* 个人旅游经历分享 */
+.Traveling {
+	background: #fff;
+	margin-top: 0.1rem;
+}
+.TravelingTitle {
+	width: 6rem;
+	height: 0.5rem;
+	padding: 0 0.1rem 0 0.1rem;
+}
+.TravelingTitle>h2 {
+	float: left;
+	font-size: 0.25rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-weight: bold;
+	color: #333;
+}
+.TravelingTitle>span {
+	float: right;
+	font-size: 0.16rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	color: #333;
+}
+.fourSharing {
+	width: 6.4rem;
+	overflow: hidden;
+}
+.fourSharing li {
+	width: 3rem;
+	float: left;
+	height: 3.25rem;
+	padding: 0.1rem;
+	overflow: hidden;
+	background: #fff;
+}
+.fourSharing li>p {
+	font-size: 0.18rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	width: 3.2rem;
+}
+.fourSharing li .fourSharingTitle {
+	width: 3rem;
+	height: 2rem;
+	display: block;
+}
+.fourSharingBottom {
+	height: 0.6rem;
+	width: 3rem;
+}
+.fourSharingBottom>span {
+	float: left;
+	width: 1rem;
+	line-height: 0.6rem;
+	height: 0.6rem;
+	position: relative;
+}
+.fourSharingBottom>span .headSculpture {
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	margin-right: 0.05rem;
+	float: left;
+	position: relative;
+	top: 50%;
+	margin-top: -0.15rem;
+}
+.fourSharingBottom>span>b {
+	font-size: 0.12rem;
+	font-weight: normal;
+	color: #aaa;
+	float: left;
+}
+.fourSharingBottom>span>i {
+	color: #aaa;
+	float: left;
+}
+.fourSharingBottom>span:first-of-type>i {
+	font-size: 0.14rem;
+}
+/* 旅游路线列表 */
+.tourList {
+	width: 6.4rem;
+	margin-top: 0.2rem;
+	background: #fff;
+}
+.tourList>h2 {
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.25rem;
+	color: #333;
+	font-weight: bold;
+	padding:0 0.1rem;
+	width: 6.2rem;
+}
+.tourList>ul {
+	padding: 0 0.1rem;
+	width: 6.2rem;
+}
+.tourList>ul li {
+	width: 3rem;
+	float: left;
+	overflow: hidden;
+	padding: 0.05rem;
+}
+.tourList>ul li>img {
+	width: 3rem;
+	height: 3.2rem;
+	display: block;
+}
+.tourList>ul li .introduce {
+	height: 0.5rem;
+	font-size: 0.2rem;
+	display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    overflow: hidden;
+    margin: 0.15rem 0;
+    color: #666;
+}
+.purchaseInformation {
+	height: 0.5rem;
+}
+.purchaseInformation .price {
+	width: 1.4rem;
+	float: left;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.22rem;
+	color: #FF0000;
+}
+.purchaseInformation .salesVolume {
+	width: 1.4rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	float: right;
+	font-size: 0.2rem;
+	overflow: hidden;
+	color: #666;
+}
+.purchaseInformation .salesVolume>b {
+	font-size: 0.2rem;
+	float: left;
+}
+.purchaseInformation .salesVolume>i {
+	font-size: 0.2rem;
+	float: left;
+	color: #999;
+}
+.appraise {
+	height: 0.5rem;
+	margin: 0.15rem 0;
+	display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    overflow: hidden;
+    font-size: 0.2rem;
+    width: 3rem;
+    color: #666;
 }
