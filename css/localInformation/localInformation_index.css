@@ -1,0 +1,108 @@
+body {
+	font-size: 0.12rem;
+}
+.typePage {				/* 版心 */
+	width: 6.4rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/* 头部标题 */
+header {
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.3rem;
+	background: #33921f;
+	margin-bottom: 0.1rem;
+	position: relative;
+}
+header>ul {
+	width: 6.4rem;
+	height: 0.8rem;
+}
+header>ul li {
+	float: left;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+	padding: 0 0.1rem;
+}
+header>span {									/* 下拉按钮 */
+	position: absolute;
+	right: 0rem;
+	top: 0;
+	width: 1rem;
+	height: 0.8rem;
+	display: block;
+	background: #33921f;
+}
+.moreClassification {
+	position: absolute;
+	top: 0.8rem;
+	left: 0;
+	background: #f1f1f1;
+	color: #333;
+	right: 0;
+	bottom: 0;
+	height: 0rem;
+	overflow: hidden;
+}
+.newsList {									/* 新闻列表 */
+	background: #fff;
+	width: 5.8rem;
+	padding: 0 0.3rem;
+}
+.newsList>ul li {
+	width: 5.8rem;
+	height: 1.5rem;
+	overflow: hidden;
+	padding: 0.2rem 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.newsList>ul li .titlePic {						/* 新闻标题图片 */
+	width: 1.5rem;
+	height: 1.5rem;
+	float: left;
+}
+.newsList>ul li .titlePic>img {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.newsList>ul li .newContent {					/* 新闻标题 */
+	width: 4.2rem;
+	height: 1.5rem;
+	float: right;
+}
+.newsList>ul li .newContent>h1 {
+	height: 1rem;
+	line-height: 0.5rem;
+	font-size: 0.3rem;
+	font-weight: bold;
+	overflow: hidden;
+}
+.newsList>ul li .newContent .statistics {
+	height: 0.5rem;
+	overflow: hidden;
+}
+.newsList>ul li .newContent .statistics>span:first-of-type {
+	float: left;
+	height: 0.5rem;
+	width: 1rem;
+	line-height: 0.5rem;
+}
+.newsList>ul li .newContent .statistics>span:last-of-type {
+	float: right;
+	height: 0.5rem;
+	width: 1rem;
+	line-height: 0.5rem;
+}
+.newsList>ul li .newContent .statistics>span:last-of-type>i {
+	display: inline-block;
+	float: left;
+	margin-right: 0.1rem;
+}
+.newsList>ul li .newContent .statistics>span:last-of-type>b {
+	display: inline-block;
+	font-size: 0.18rem;
+}
